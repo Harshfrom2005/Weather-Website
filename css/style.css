@@ -56,6 +56,10 @@ body {
   justify-content: center;
 }
 
+#delhi_location{
+  position: unset;
+}
+
 .weather-container {
   display: flex;
   justify-content: center;
@@ -171,11 +175,11 @@ body {
 /* responsive styles for mobile phones */
 
 @media (max-width: 600px) {
+  
   .search-box{
     width: 100px;
   }
 
-  
   #delhi_location{
     position: unset;
     font-size: xx-large;
