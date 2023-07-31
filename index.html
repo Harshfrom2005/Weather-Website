@@ -22,77 +22,69 @@
     <!-- Navbar -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-      <div class="container" style="display: flex">
-        <div class="container-fluid" style="display: flex">
+      <div class="container" style="display: flex;">
+        
+        <div class="container-fluid" style="display: flex;">
           <a class="navbar-brand" href="index.html">
-            <img
-              src="img/Favicon png.png"
-              alt="Bootstrap"
-              width="30"
-              height="24"
-            />EarthCast
-          </a>
-          <button
-            class="navbar-toggler navbar-btn"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse"
-            id="navbarSupportedContent"
-            style="margin-left: 10px"
-          >
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="width: 88px">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="index.html"
-                  style="color: white; font-family: Montserrat"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="#"
-                  style="color: white; font-family: Montserrat"
-                  >About us</a
-                >
-              </li>
-            </ul>
-            <form class="d-flex" role="search" style="flex-direction: column">
-              <input
-                class="form-control me-2 search-box"
-                type="search"
-                placeholder="Location"
-                aria-label="Search"
-                style="width: 80px; font-size: x-small; text-align: center;"
-              />
-              <button
-                class="btn btn-outline-light border border-white search-btn"
-                type="submit"
-                style="
-                  font-family: Montserrat;
-                  width: 70px;
-                  text-align: center;
-                  margin-top: 10px;
-                  font-size: x-small;
-                "
-                id="submit"
+          <img
+            src="img/Favicon png.png"
+            alt="Bootstrap"
+            width="30"
+            height="24"
+          />EarthCast
+        </a>
+        <button
+          class="navbar-toggler navbar-btn"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse dropdown" id="navbarSupportedContent" style="margin-left: 10px;">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 dropdown-list">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html"
+                style="color: white; font-family: Montserrat"
+                >Home</a
               >
-                Search
-              </button>
-            </form>
-          </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                style="color: white; font-family: Montserrat"
+                >About us</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex form" role="search">
+            <input
+              class="form-control me-2 search-box"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              
+            />
+            <button
+              class="btn btn-outline-light border border-white search-btn"
+              type="submit"
+              style="font-family: Montserrat"
+              id="submit"
+            >
+              Search
+            </button>
+          </form>
         </div>
       </div>
+      </div>
+      
     </nav>
 
     <!-- Navbar ends here -->
@@ -103,30 +95,22 @@
       <div id="delhi_location">
         <p></p>
       </div>
-
+    
       <div class="location" id="temp">
         <h3>Temperature Info</h3>
-        <p
-          class="temp current-temp"
-          style="font-size: 1.2rem; padding-top: 20px"
-        ></p>
-        <p class="temp temp_max" style="font-size: 1.2rem" id="max_temp">
-          Max Temp:
-        </p>
-        <p class="temp temp_min" style="font-size: 1.2rem" id="min_temp">
-          Min Temp:
-        </p>
-        <p class="temp feels_like" style="font-size: 1.2rem" id="feels_like">
-          Feels like:
-        </p>
+        <p class="temp current-temp" style="font-size: 1.2rem; padding-top: 20px;"></p>
+        <p class="temp temp_max" style="font-size: 1.2rem" id="max_temp">Max Temp: </p>
+        <p class="temp temp_min" style="font-size: 1.2rem" id="min_temp">Min Temp: </p>
+        <p class="temp feels_like" style="font-size: 1.2rem" id="feels_like">Feels like: </p>
         <p class="description"></p>
 
         <p class="description"></p>
       </div>
       <div class="location" id="sunrise_sunset_location">
         <h3>Daylight & Humidity</h3>
-        <p class="temp" id="sunrise">Sunrise:</p>
-        <p class="temp" id="sunset">Sunset:</p>
+        <p class="temp" id="sunrise">Sunrise: </p>
+        <p class="temp" id="sunset">Sunset: </p>
+        
       </div>
       <div class="location" id="wind_info">
         <h3>Wind Info</h3>
@@ -134,6 +118,8 @@
         <p class="wind" id="wind_speed"></p>
       </div>
     </div>
+
+      
 
     <!-- It ends here -->
 
